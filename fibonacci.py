@@ -28,7 +28,7 @@ for n in range(10, 101, 10):
     dynamic_times.append(dynamic_time)
 
     elapsed_time = timeit.default_timer() - start_time
-    if elapsed_time > 50:
+    if elapsed_time > 3600:
         print('Elapsed time exceeded 1 hour. Stopping loop.')
         break
 
